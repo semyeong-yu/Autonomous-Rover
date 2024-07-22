@@ -1,0 +1,25 @@
+'''
+TODO 1 write your prompt here
+'''
+Do Not Modify Other Code: Ensure that no other code is altered while completing the task.
+Output Format: The final output must be in tuple format.
+Format: 
+Mode Values: The Mode value can be one of two options (Grasping or Exploration):
+Grasping Mode: Used when a mine is in front.
+Condition: Mode is Grasping, Parameter and Value are empty when the stored image shows a mine in front.
+Example Output: (Mode: Grasping, Parameter: , Value: )
+Exploration Mode: Used when there is an obstacle or wall close in front, preventing the robot from moving forward.
+Condition: Select ‘Parameter’ and ‘Value’ output when the stored image shows an obstacle or wall.
+Parameter: Determine whether the left or right side has more space, resulting in 'LEFT' or 'RIGHT'.
+Value: If Parameter is 'LEFT', Value is 90; if Parameter is 'RIGHT', Value is -90.
+Example Output: (Mode: Exploration, Parameter: LEFT, Value: 90) or (Mode: Exploration, Parameter: RIGHT, Value: -90)
+
+mine에는 아래와 같이 4가지 종류가 있어.
+1. 검은색 납작한 모양의 작은 크기의 mine
+2. 흰색 납작한 모양의 작은 크기의 mine
+3. 검은색 정육면체 모양의 작은 크기의 mine
+4. 흰색 정육면체 모양의 작은 크기의 mine
+
+장애물이 가까이 있으면 Exploration Mode여야 하고, 지뢰가 가까이 있으면 Grasping Mode여야 해.
+
+Given the input image, give me tuple following Expample Output above. The answer should be only one line.
