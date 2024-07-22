@@ -1,0 +1,69 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/Armpi_Pro_code/color_tracking/cmake/color_tracking-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"Armpi_Pro_code/color_tracking/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "color_tracking_generate_messages_nodejs::@396b9b73a8ae17eb846e"
+		}
+	],
+	"id" : "color_tracking_gennodejs::@396b9b73a8ae17eb846e",
+	"name" : "color_tracking_gennodejs",
+	"paths" : 
+	{
+		"build" : "Armpi_Pro_code/color_tracking",
+		"source" : "Armpi_Pro_code/color_tracking"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

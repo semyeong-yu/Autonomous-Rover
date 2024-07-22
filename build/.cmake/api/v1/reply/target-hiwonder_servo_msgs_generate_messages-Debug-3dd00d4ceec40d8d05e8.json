@@ -1,0 +1,109 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/Armpi_Pro_code/hiwonder_servo_msgs/cmake/hiwonder_servo_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"Armpi_Pro_code/hiwonder_servo_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 603,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 466,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 329,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "hiwonder_servo_msgs_generate_messages_cpp::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "hiwonder_servo_msgs_generate_messages_py::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "hiwonder_servo_msgs_generate_messages_nodejs::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hiwonder_servo_msgs_generate_messages_lisp::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "hiwonder_servo_msgs_generate_messages_eus::@78723213c8c7e69999ee"
+		}
+	],
+	"id" : "hiwonder_servo_msgs_generate_messages::@78723213c8c7e69999ee",
+	"name" : "hiwonder_servo_msgs_generate_messages",
+	"paths" : 
+	{
+		"build" : "Armpi_Pro_code/hiwonder_servo_msgs",
+		"source" : "Armpi_Pro_code/hiwonder_servo_msgs"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

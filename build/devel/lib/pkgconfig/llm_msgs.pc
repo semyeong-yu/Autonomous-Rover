@@ -1,0 +1,8 @@
+prefix=/home/ee405/catkin_ws/src/build/devel
+
+Name: llm_msgs
+Description: Description of llm_msgs
+Version: 0.0.0
+Cflags: -I/home/ee405/catkin_ws/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ee405/catkin_ws/src/build/devel
+
+Name: point_tf
+Description: Description of point_tf
+Version: 0.0.0
+Cflags: -I/home/ee405/catkin_ws/src/point_tf/include
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs std_msgs

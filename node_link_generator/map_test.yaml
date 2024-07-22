@@ -1,0 +1,3 @@
+image: map_test.jpg
+resolution: 0.006980057 # real width /image width 
+origin: [0.0, 0.0, 0.0]

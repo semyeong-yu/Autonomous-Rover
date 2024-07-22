@@ -1,0 +1,137 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/Armpi_Pro_code/hiwonder_servo_controllers/cmake/hiwonder_servo_controllers-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"Armpi_Pro_code/hiwonder_servo_controllers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_eus::@20524b8fc0f3498ec87c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "hiwonder_servo_msgs_generate_messages_eus::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "trajectory_msgs_generate_messages_eus::@e09d6ae63200afc2ee35"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "control_msgs_generate_messages_eus::@e09d6ae63200afc2ee35"
+		}
+	],
+	"id" : "hiwonder_servo_controllers_generate_messages_eus::@e09d6ae63200afc2ee35",
+	"name" : "hiwonder_servo_controllers_generate_messages_eus",
+	"paths" : 
+	{
+		"build" : "Armpi_Pro_code/hiwonder_servo_controllers",
+		"source" : "Armpi_Pro_code/hiwonder_servo_controllers"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Armpi_Pro_code/hiwonder_servo_controllers/CMakeFiles/hiwonder_servo_controllers_generate_messages_eus",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Armpi_Pro_code/hiwonder_servo_controllers/CMakeFiles/hiwonder_servo_controllers_generate_messages_eus.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/roseus/ros/hiwonder_servo_controllers/manifest.l.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

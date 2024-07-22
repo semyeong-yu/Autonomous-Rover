@@ -1,0 +1,8 @@
+prefix=/home/ee405/catkin_ws/src/build/devel
+
+Name: localization_manager
+Description: Description of localization_manager
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

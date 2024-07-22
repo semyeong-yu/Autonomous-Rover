@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: armpi_pro_bringup
+Description: Description of armpi_pro_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

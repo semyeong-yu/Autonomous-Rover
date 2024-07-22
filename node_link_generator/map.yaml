@@ -1,0 +1,4 @@
+image: map.png
+resolution: 0.005 # real width /image width 
+origin: [0.0, 0.0, 0.000000]
+

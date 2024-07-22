@@ -1,0 +1,69 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/Armpi_Pro_code/hiwonder_servo_controllers/cmake/hiwonder_servo_controllers-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"Armpi_Pro_code/hiwonder_servo_controllers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "hiwonder_servo_controllers_generate_messages_lisp::@e09d6ae63200afc2ee35"
+		}
+	],
+	"id" : "hiwonder_servo_controllers_genlisp::@e09d6ae63200afc2ee35",
+	"name" : "hiwonder_servo_controllers_genlisp",
+	"paths" : 
+	{
+		"build" : "Armpi_Pro_code/hiwonder_servo_controllers",
+		"source" : "Armpi_Pro_code/hiwonder_servo_controllers"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

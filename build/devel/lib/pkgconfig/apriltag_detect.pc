@@ -1,0 +1,8 @@
+prefix=/home/ee405/catkin_ws/src/build/devel
+
+Name: apriltag_detect
+Description: Description of apriltag_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

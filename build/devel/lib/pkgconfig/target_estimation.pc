@@ -1,0 +1,8 @@
+prefix=/home/ee405/catkin_ws/src/build/devel
+
+Name: target_estimation
+Description: Description of target_estimation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lopencv
+Requires: 

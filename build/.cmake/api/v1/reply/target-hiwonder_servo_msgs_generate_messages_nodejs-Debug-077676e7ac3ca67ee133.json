@@ -1,0 +1,348 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/Armpi_Pro_code/hiwonder_servo_msgs/cmake/hiwonder_servo_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"Armpi_Pro_code/hiwonder_servo_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 831,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 615,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 631,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 607,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 619,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 633,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 613,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 834,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 611,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 621,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 623,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 617,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 625,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 627,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 629,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 609,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_nodejs::@20524b8fc0f3498ec87c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_CommandDurationList::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ActionGroupRunnerResult::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_JointState::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_MultiRawIdPosDur::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ActionGroupRunnerFeedback::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_CommandDuration::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "actionlib_msgs_generate_messages_nodejs::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ServoStateList::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ActionGroupRunnerAction::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ActionGroupRunnerActionGoal::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_RawIdPosDur::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ActionGroupRunnerActionResult::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ActionGroupRunnerActionFeedback::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ActionGroupRunnerGoal::@78723213c8c7e69999ee"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "_hiwonder_servo_msgs_generate_messages_check_deps_ServoState::@78723213c8c7e69999ee"
+		}
+	],
+	"id" : "hiwonder_servo_msgs_generate_messages_nodejs::@78723213c8c7e69999ee",
+	"name" : "hiwonder_servo_msgs_generate_messages_nodejs",
+	"paths" : 
+	{
+		"build" : "Armpi_Pro_code/hiwonder_servo_msgs",
+		"source" : "Armpi_Pro_code/hiwonder_servo_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Armpi_Pro_code/hiwonder_servo_msgs/CMakeFiles/hiwonder_servo_msgs_generate_messages_nodejs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Armpi_Pro_code/hiwonder_servo_msgs/CMakeFiles/hiwonder_servo_msgs_generate_messages_nodejs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/JointState.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ServoState.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ServoStateList.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/CommandDuration.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/CommandDurationList.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/RawIdPosDur.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/MultiRawIdPosDur.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ActionGroupRunnerAction.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ActionGroupRunnerActionGoal.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ActionGroupRunnerActionResult.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ActionGroupRunnerActionFeedback.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ActionGroupRunnerGoal.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ActionGroupRunnerResult.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/hiwonder_servo_msgs/msg/ActionGroupRunnerFeedback.js.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: true_rt_tag
+Description: Description of true_rt_tag
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

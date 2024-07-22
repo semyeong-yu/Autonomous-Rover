@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: point_tf
+Description: Description of point_tf
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs std_msgs

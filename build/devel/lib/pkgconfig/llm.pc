@@ -1,0 +1,8 @@
+prefix=/home/ee405/catkin_ws/src/build/devel
+
+Name: llm
+Description: Description of llm
+Version: 0.0.0
+Cflags: -I/home/ee405/catkin_ws/src/llm/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport roscpp rospy sensor_msgs std_msgs llm_msgs

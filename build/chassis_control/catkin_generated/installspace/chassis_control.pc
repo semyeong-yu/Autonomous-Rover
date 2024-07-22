@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: chassis_control
+Description: Description of chassis_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs std_srvs
